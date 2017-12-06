@@ -22,7 +22,7 @@ header {
 	padding:30px;
 	width:960px;
 	margin:auto;
-	border:10px solid red;
+	/*border:10px solid red;*/
 
 }
 
@@ -32,30 +32,33 @@ nav {
 	padding:30px;
 	width:960px;
 	margin-top:10px;
-	margin:auto;
-	border:10px solid red;
+	margin-left:auto;
+	margin-right:auto;
+	/*border:10px solid red;*/
+	position:relative;
 
 }
 
-div {
-	float:left;
-	margin:auto;
-}
 
 section {
 	background-color: white;
 	color:grey;
 	padding:30px;
 	width:495px;
-	margin-top:10px;
-	margin-left:195px;
+	margin-top:-10px;
+	margin-left:-30px;
+	/*margin-left:195px;*/
+	/*margin-right:auto;*/
 	float:left;
+	/*position:relative;*/
+	/*border: 1px solid red;*/
 }
 
 article {
 	background-color:#777;
 	color:white;
 	padding:30px;
+	
 
 }
 
@@ -70,6 +73,7 @@ p {
 	background-color: white;
 	color:grey;
 	padding:15px;
+
 }
 
 aside {
@@ -77,23 +81,31 @@ aside {
 	color:grey;
 	padding:30px;
 	width:455px;
-	height:318px;
-	margin-top:10px;
-	margin-left:10px;
-	float:left;
+	height:319px;
+	margin-top:-31px;
+/*	margin-right:10px;*/
+	/*border:1px solid red;*/
+	/*float:left;*/
+	position:relative;
+	margin-right:-30px;
+	float:right;
+	
+
 
 }
 
 div {
-	background-color: white;
+	/*background-color: white;*/
 	color:grey;
 	padding:30px;
 	width:960px;
-	margin-top:500px;
-	margin-left:187px;
-	border: 1px solid red;
-	clear:both;
-	overflow:auto;
+	height:365px;
+	/*margin-top:100px;*/
+	margin:auto;
+	/*margin-left:auto*/;
+	/*margin-left:187px;*/
+	/*border: 1px solid red;*/
+
 
 }
 
@@ -104,8 +116,10 @@ footer {
 	color:grey;
 	padding:30px;
 	width:960px;
-	margin-top:340px;
-	margin:auto;
-	border:10px solid red;
+	margin-top:-5px;
+	margin-left:auto;
+	margin-right:auto;
+	/*border:10px solid red;*/
+	position:relative;
 
 }
